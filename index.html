@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suivez l'aventure de Yansdjo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3; /* Fond clair */
+            background-image: url('https://www.transparenttextures.com/patterns/soft-leather.png'); /* Motif léger et élégant */
+            background-repeat: repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.85); /* Conteneur avec fond légèrement transparent */
+            padding: 60px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+            width: 80%;
+            max-width: 800px;
+        }
+
+        /* Titre principal */
+        .title {
+            font-size: 3em;
+            font-weight: bold;
+            color: #2a2a2a;
+            margin-bottom: 30px;
+            font-family: 'Georgia', serif; /* Typo élégante et moderne */
+            letter-spacing: 2px;
+        }
+
+        .title span {
+            color: #ff5722; /* Accent orange pour un effet stylé */
+        }
+
+        /* Section des liens */
+        .social-links a {
+            display: inline-block;
+            margin: 20px 30px;
+            padding: 20px 40px;
+            font-size: 1.3em;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 50px;
+            background-color: #333;
+            border: 2px solid #ccc;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+            text-transform: capitalize;
+        }
+
+        .social-links a:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            background-color: #ff5722; /* Changement de couleur au survol */
+        }
+
+        .social-links a.twitch {
+            background-color: #6441a5;
+        }
+
+        .social-links a.tiktok {
+            background-color: #010101;
+        }
+
+        .social-links a.instagram {
+            background-color: #e4405f;
+        }
+
+        /* Effet de focus pour les liens */
+        .social-links a:focus {
+            outline: none;
+        }
+
+        /* Animation sur le titre */
+        .title {
+            animation: fadeIn 2s ease-out;
+        }
+
+        /* Animation de fade-in pour le titre */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Suivez l'aventure de <span>Yansdjo</span></h1>
+        <div class="social-links">
+            <a href="https://www.twitch.tv/yansdjo_stream" target="_blank" class="twitch">Twitch</a>
+            <a href="https://www.tiktok.com/@yansdjoo" target="_blank" class="tiktok">TikTok</a>
+            <a href="https://www.instagram.com/yansdjo" target="_blank" class="instagram">Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
